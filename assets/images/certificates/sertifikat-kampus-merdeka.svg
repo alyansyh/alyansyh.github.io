@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgKM" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141a29"/>
+      <stop offset="100%" stop-color="#0f291e"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="550" fill="url(#bgKM)"/>
+
+  <!-- Border -->
+  <rect x="35" y="35" width="730" height="480" rx="12" fill="#091310" stroke="#1b4d3e" stroke-width="2"/>
+  <rect x="47" y="47" width="706" height="456" rx="8" fill="none" stroke="#2d6a4f" stroke-width="1.5" stroke-dasharray="8 4"/>
+
+  <!-- Header Emblem -->
+  <circle cx="400" cy="95" r="30" fill="url(#emeraldGrad)"/>
+  <text x="400" y="103" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22">🇮🇩</text>
+
+  <text x="400" y="150" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="900" letter-spacing="3" fill="#ffffff">KAMPUS MERDEKA</text>
+  <text x="400" y="170" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" letter-spacing="2" fill="#6ee7b7">KEMENTERIAN PENDIDIKAN, KEBUDAYAAN, RISET, DAN TEKNOLOGI</text>
+
+  <!-- Awarded to -->
+  <text x="400" y="215" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-style="italic" fill="#cbd5e1">Sertifikat Kelulusan Program Diberikan Kepada:</text>
+  
+  <text x="400" y="260" text-anchor="middle" font-family="system-ui, Georgia, serif" font-size="30" font-weight="bold" fill="#ffffff">Alyan Pratama</text>
+  <line x1="260" y1="275" x2="540" y2="275" stroke="#10b981" stroke-width="2"/>
+
+  <text x="400" y="310" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8">Telah menyelesaikan program Studi Independen Bersertifikat:</text>
+  
+  <rect x="160" y="328" width="480" height="42" rx="8" fill="#132a22" stroke="#1e4638" stroke-width="1"/>
+  <text x="400" y="354" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#34d399">Cloud &amp; Backend Architecture</text>
+
+  <text x="400" y="398" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">Durasi 900 Jam Pelajaran &bull; Predikat Sangat Memuaskan &bull; Desember 2024</text>
+
+  <!-- Seal / Signature -->
+  <line x1="130" y1="460" x2="270" y2="460" stroke="#334155" stroke-width="1"/>
+  <text x="200" y="478" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#cbd5e1">Koordinator Program MSIB</text>
+
+  <circle cx="400" cy="455" r="28" fill="url(#emeraldGrad)"/>
+  <text x="400" y="461" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#ffffff">PASSED</text>
+
+  <line x1="530" y1="460" x2="670" y2="460" stroke="#334155" stroke-width="1"/>
+  <text x="600" y="478" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#cbd5e1">Direktur Pembelajaran</text>
+</svg>

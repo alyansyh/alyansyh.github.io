@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgDcd" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="goldRibbon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="550" fill="url(#bgDcd)"/>
+
+  <!-- Ornate Certificate Frame -->
+  <rect x="30" y="30" width="740" height="490" rx="14" fill="#090d16" stroke="#2e384d" stroke-width="2"/>
+  <rect x="42" y="42" width="716" height="466" rx="10" fill="none" stroke="url(#goldRibbon)" stroke-width="1.5" stroke-opacity="0.8"/>
+  <rect x="48" y="48" width="704" height="454" rx="8" fill="none" stroke="#475569" stroke-width="1" stroke-dasharray="6 4"/>
+
+  <!-- Corner Ornaments -->
+  <path d="M 42 75 L 75 42 M 42 85 L 85 42" stroke="#f59e0b" stroke-width="1.5"/>
+  <path d="M 758 75 L 725 42 M 758 85 L 715 42" stroke="#f59e0b" stroke-width="1.5"/>
+  <path d="M 42 475 L 75 508 M 42 465 L 85 508" stroke="#f59e0b" stroke-width="1.5"/>
+  <path d="M 758 475 L 725 508 M 758 465 L 715 508" stroke="#f59e0b" stroke-width="1.5"/>
+
+  <!-- Brand Logo & Header -->
+  <text x="400" y="105" text-anchor="middle" font-family="system-ui, sans-serif" font-size="24" font-weight="900" letter-spacing="4" fill="#38bdf8">DICODING INDONESIA</text>
+  <text x="400" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="6" fill="#94a3b8">CERTIFICATE OF EXCELLENCE</text>
+
+  <!-- Awarded to -->
+  <text x="400" y="185" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-style="italic" fill="#cbd5e1">Diberikan secara terhormat kepada:</text>
+  
+  <text x="400" y="235" text-anchor="middle" font-family="system-ui, Georgia, serif" font-size="32" font-weight="bold" fill="#ffffff">Alyan Pratama</text>
+  <line x1="250" y1="252" x2="550" y2="252" stroke="url(#goldRibbon)" stroke-width="2"/>
+
+  <!-- Course Title -->
+  <text x="400" y="295" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#cbd5e1">Atas kelulusan dan penguasaan kompetensi tingkat lanjut:</text>
+  
+  <rect x="180" y="315" width="440" height="42" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="400" y="342" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#38bdf8">Menjadi Front-End Web Developer Expert</text>
+
+  <!-- Details -->
+  <text x="400" y="390" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8">Dengan predikat kelulusan Sangat Baik (Grade A) &bull; Diterbitkan: Mei 2025</text>
+
+  <!-- Gold Seal -->
+  <circle cx="400" cy="450" r="32" fill="url(#goldRibbon)"/>
+  <circle cx="400" cy="450" r="26" fill="none" stroke="#fef3c7" stroke-width="1.5"/>
+  <text x="400" y="456" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18">★</text>
+
+  <!-- Signature Lines -->
+  <line x1="130" y1="465" x2="270" y2="465" stroke="#475569" stroke-width="1"/>
+  <text x="200" y="482" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#cbd5e1">Narenda Wicaksono</text>
+  <text x="200" y="495" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">CEO Dicoding Indonesia</text>
+
+  <line x1="530" y1="465" x2="670" y2="465" stroke="#475569" stroke-width="1"/>
+  <text x="600" y="482" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#cbd5e1">Verifikasi Digital</text>
+  <text x="600" y="495" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#38bdf8">ID: DCD-FE-2025-8891</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgCoursera" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a192f"/>
+      <stop offset="100%" stop-color="#020c1b"/>
+    </linearGradient>
+    <linearGradient id="metaBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0064e0"/>
+      <stop offset="100%" stop-color="#0081fb"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="550" fill="url(#bgCoursera)"/>
+
+  <!-- Clean Minimalist Tech Certificate Frame -->
+  <rect x="35" y="35" width="730" height="480" rx="8" fill="#081426" stroke="#1d3557" stroke-width="2"/>
+  <rect x="45" y="45" width="710" height="460" rx="6" fill="none" stroke="#2a4365" stroke-width="1"/>
+
+  <!-- Coursera & Meta Logos -->
+  <rect x="80" y="70" width="110" height="34" rx="6" fill="#0056D2"/>
+  <text x="135" y="92" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="900" fill="#ffffff">coursera</text>
+
+  <text x="720" y="93" text-anchor="end" font-family="system-ui, sans-serif" font-size="18" font-weight="900" fill="#0081fb">&infin; Meta</text>
+
+  <!-- Title & Award Text -->
+  <text x="400" y="160" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#64748b">PROVE OF COMPLETION</text>
+  
+  <text x="400" y="215" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="800" fill="#ffffff">Alyan Pratama</text>
+  <line x1="280" y1="230" x2="520" y2="230" stroke="#0081fb" stroke-width="2"/>
+
+  <text x="400" y="270" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8">has successfully completed the online non-credit Specialization</text>
+
+  <!-- Course Name -->
+  <text x="400" y="315" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="900" fill="#60a5fa">Meta Front-End Developer</text>
+  <text x="400" y="340" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#93c5fd">Professional Certificate (9 Courses Series)</text>
+
+  <!-- Competencies -->
+  <text x="400" y="390" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">React &bull; JavaScript ES6+ &bull; HTML5 &bull; UI/UX &bull; Version Control &bull; Jest Testing</text>
+  <text x="400" y="410" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Issued on March 2025 &bull; Coursera Verified Certificate</text>
+
+  <!-- Footer Verification -->
+  <rect x="80" y="445" width="280" height="40" rx="6" fill="#0f213d"/>
+  <text x="95" y="462" font-family="system-ui, sans-serif" font-size="9" fill="#94a3b8">Coursera Verification URL:</text>
+  <text x="95" y="475" font-family="system-ui, sans-serif" font-size="9" font-weight="600" fill="#38bdf8">coursera.org/verify/professional-cert-sample-id</text>
+
+  <!-- Meta Badge -->
+  <circle cx="680" cy="465" r="24" fill="url(#metaBlue)"/>
+  <text x="680" y="472" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#ffffff">&infin;</text>
+</svg>

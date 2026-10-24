@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fed7aa"/>
+      <stop offset="100%" stop-color="#fcd34d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Glowing outer circle -->
+  <circle cx="120" cy="120" r="115" fill="none" stroke="url(#avatarGrad)" stroke-width="4"/>
+  <circle cx="120" cy="120" r="108" fill="#0f172a"/>
+
+  <!-- Character -->
+  <!-- Clothes / Hoodie -->
+  <path d="M 45 220 C 50 170, 75 160, 120 160 C 165 160, 190 170, 195 220 Z" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <path d="M 100 160 L 120 185 L 140 160 Z" fill="#38bdf8"/>
+
+  <!-- Neck -->
+  <rect x="106" y="130" width="28" height="35" fill="url(#skinGrad)"/>
+
+  <!-- Head -->
+  <circle cx="120" cy="108" r="42" fill="url(#skinGrad)"/>
+
+  <!-- Hair -->
+  <path d="M 78 105 C 75 75, 95 62, 120 62 C 145 62, 165 75, 162 105 C 158 95, 140 85, 120 85 C 100 85, 82 95, 78 105 Z" fill="#1e1b4b"/>
+  <!-- Modern Hair Bangs -->
+  <path d="M 85 85 C 105 60, 145 70, 155 90 C 140 80, 110 80, 95 90 Z" fill="#09090b"/>
+
+  <!-- Glasses -->
+  <rect x="92" y="98" width="24" height="18" rx="4" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+  <rect x="124" y="98" width="24" height="18" rx="4" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+  <line x1="116" y1="106" x2="124" y2="106" stroke="#38bdf8" stroke-width="2.5"/>
+
+  <!-- Eyes behind glasses -->
+  <circle cx="104" cy="107" r="2.5" fill="#09090b"/>
+  <circle cx="136" cy="107" r="2.5" fill="#09090b"/>
+
+  <!-- Smile -->
+  <path d="M 112 126 Q 120 134 128 126" fill="none" stroke="#9a3412" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Code Badge floating -->
+  <rect x="145" y="45" width="45" height="24" rx="12" fill="#10b981"/>
+  <text x="167" y="61" text-anchor="middle" font-family="monospace" font-size="12" font-weight="bold" fill="#ffffff">&lt;/&gt;</text>
+</svg>

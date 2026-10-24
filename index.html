@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Web Developer - Kumpulan proyek aplikasi web interaktif dan sertifikasi keahlian terverifikasi.">
+  <meta name="keywords" content="Portofolio, Web Developer, Frontend, JavaScript, HTML, CSS, Sertifikat, Dicoding, Coursera">
+  <meta name="author" content="Alyan Syah Putra">
+  <meta name="theme-color" content="#0a0f1d">
+  <title>Alyan Syah Putra | Website Developer</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+  <!-- Ambient Glow Background Effects -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+  <div class="ambient-glow glow-3" aria-hidden="true"></div>
+
+  <!-- HEADER / NAVBAR -->
+  <header class="site-header" id="site-header">
+    <div class="container navbar">
+      <a href="#beranda" class="brand-logo" id="brand-link" aria-label="Beranda Portofolio">
+      <span class="brand-text">Alyan<span>.dev</span></span>
+      </a>
+
+      <!-- Menu Navigasi -->
+      <nav aria-label="Navigasi Utama">
+        <ul class="nav-links" id="nav-links">
+        <li><a href="#beranda" class="nav-link active" id="nav-beranda">Beranda</a></li>
+        <li><a href="#keahlian" class="nav-link" id="nav-keahlian">Keahlian</a></li>
+        <li><a href="#proyek" class="nav-link" id="nav-proyek">Proyek</a></li>
+        <li><a href="#sertifikat" class="nav-link" id="nav-sertifikat">Sertifikat</a></li>
+        <li><a href="#kontak" class="nav-link" id="nav-kontak">Kontak</a></li>
+      </ul>
+      </nav>
+
+      <!-- Nav Actions (Dark mode toggle & Mobile hamburger) -->
+      <div class="nav-actions">
+        <button type="button"
+                class="theme-toggle-btn"
+                id="theme-toggle-btn"
+                title="Ganti Mode Gelap/Terang"
+                aria-label="Ganti Mode Gelap/Terang">
+          ☀️
+        </button>
+
+        <button type="button"
+                class="mobile-toggle-btn"
+                id="mobile-toggle-btn"
+                title="Buka Menu Navigasi"
+                aria-label="Buka Menu Navigasi">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========================================================================
+         HERO SECTION (TENTANG SAYA)
+         ======================================================================== -->
+    <section class="hero-section" id="beranda">
+      <div class="container hero-grid">
+        <div class="hero-content reveal-on-scroll">
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            <span>Tersedia untuk Pekerjaan &amp; Proyek Freelance</span>
+          </div>
+          <h1 class="hero-title">
+            Halo, Saya <span class="gradient-text">Alyan Syah Putra</span><br>
+            Web Developer
+          </h1>
+          <p class="hero-description">
+            Saya merancang website modern yang cepat, responsif, dan nyaman dipakai.
+            Dengan kode yang rapi dan desain yang memikat, setiap proyek saya bangun
+            untuk memberikan pengalaman pengguna yang berkesan.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#proyek" class="btn btn-primary" id="hero-btn-proyek">
+              <span>Proyek</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+
+            <!-- Tombol Unduh CV Langsung mengarah ke assets/pdf/cv.pdf -->
+            <a href="assets/pdf/Alyan Syah Putra_CV.pdf"
+               target="_blank"
+               rel="noopener noreferrer"
+               download="CV-Alyan-Syah-Putra.pdf"
+               class="btn btn-outline"
+               id="hero-btn-cv"
+               title="Unduh Curriculum Vitae (PDF)">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download CV</span>
+            </a>
+
+            <a href="#kontak" class="btn btn-outline" id="hero-btn-kontak">
+              <span>Hubungi Saya</span>
+            </a>
+          </div>
+
+          <!-- Info singkat pendidikan di bawah tombol -->
+          <div class="hero-edu" id="hero-edu">
+            <span class="hero-edu-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10L12 5 2 10l10 5 10-5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+            </span>
+            <div class="hero-edu-text">
+              <p class="hero-edu-school">Universitas Islam Negeri Alauddin Makassar</p>
+              <p class="hero-edu-degree">Sarjana Teknik Informatika (S1)</p>
+            </div>
+            <span class="hero-edu-gpa">IPK <strong>3,44</strong></span>
+          </div>
+        </div>
+
+        <div class="hero-avatar-wrapper reveal-on-scroll">
+          <div class="hero-avatar-card">
+            <img src="assets/images/Alyan.jpg" alt="Foto Alyan Syah Putra" class="hero-avatar-img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+     KEAHLIAN / SKILLS
+     ======================================================================== -->
+    <section class="section" id="keahlian">
+      <div class="container">
+        <div class="education-heading reveal-on-scroll">
+          <span class="education-icon" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="16 18 22 12 16 6"></polyline>
+              <polyline points="8 6 2 12 8 18"></polyline>
+            </svg>
+          </span>
+          <h2 class="section-title">Keahlian Teknis</h2>
+        </div>
+
+        <div class="skills-grid reveal-on-scroll">
+
+          <!-- Web Tech -->
+          <div class="skill-card">
+            <h3 class="skill-card-title">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+              Web Tech
+            </h3>
+            <ul class="skill-list">
+              <li>HTML/CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+            </ul>
+          </div>
+
+         
+          <!-- Desain -->
+          <div class="skill-card">
+            <h3 class="skill-card-title">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+              Desain
+            </h3>
+            <ul class="skill-list">
+            <li>Canva</li>
+            <li>Poster &amp; Banner</li>
+            <li>Presentasi</li>
+            <li>Konten Media Sosial</li>
+            </ul>
+          </div>
+          
+          <!-- Soft Skills -->
+          <div class="skill-card">
+            <h3 class="skill-card-title">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+              Soft Skills
+            </h3>
+            <ul class="skill-list">
+              <li>Communication</li>
+              <li>Teamwork</li>
+              <li>Problem Solving</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         MENU PROYEK (Dirender dinamis dari /js/projects.js)
+         ======================================================================== -->
+    <section class="section" id="proyek">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">Karya &amp; Portofolio</span>
+          <h2 class="section-title">Proyek Unggulan</h2>
+          <p class="section-subtitle">
+            Kumpulan aplikasi web dan antarmuka interaktif yang telah saya kembangkan.
+            Klik pada gambar untuk memperbesar tangkapan layar.
+          </p>
+        </div>
+
+        <!-- Tombol Filter Kategori Otomatis Dibuat oleh JavaScript -->
+        <div class="filter-container reveal-on-scroll" id="project-filter-container">
+          <!-- Filter buttons akan dirender di sini dari js/projects.js -->
+        </div>
+
+        <!-- Grid Kartu Proyek -->
+        <div class="cards-grid" id="projects-grid">
+          <!-- Kartu proyek dirender otomatis di sini oleh JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         MENU SERTIFIKAT (Dirender dinamis dari /js/certificates.js)
+         ======================================================================== -->
+    <section class="section" id="sertifikat">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">Pengakuan &amp; Kompetensi</span>
+          <h2 class="section-title">Sertifikasi</h2>
+          <p class="section-subtitle">
+            Daftar sertifikat keahlian resmi yang saya raih dari program pelatihan terakreditasi.
+          </p>
+        </div>
+
+        <!-- Bar Pencarian dan Filter Penerbit -->
+        <div class="search-filter-box reveal-on-scroll">
+          <div class="search-input-wrapper">
+            <span class="search-icon">🔍</span>
+            <input
+              type="text"
+              id="cert-search-input"
+              class="search-input"
+              placeholder="Cari berdasarkan judul sertifikat atau penerbit (contoh: Dicoding, Coursera)..."
+              aria-label="Cari sertifikat"
+            />
+            <button type="button" id="cert-search-clear" class="search-clear-btn" title="Hapus pencarian">&times;</button>
+          </div>
+
+          <!-- Tombol Filter Penerbit -->
+          <div class="filter-container" id="cert-filter-container" style="margin-bottom: 0;">
+            <!-- Filter penerbit akan dirender di sini oleh JavaScript -->
+          </div>
+        </div>
+
+        <!-- Grid Kartu Sertifikat -->
+        <div class="cards-grid" id="certificates-grid">
+          <!-- Kartu sertifikat dirender otomatis di sini oleh JavaScript -->
+        </div>
+      </div>
+    </section>
+
+   
+
+    <!-- ========================================================================
+         KONTAK SECTION
+         ======================================================================== -->
+    <section class="contact-section" id="kontak">
+      <div class="container">
+        <div class="contact-card reveal-on-scroll">
+          <span class="section-tag">Kolaborasi</span>
+          <h2>Mari Terhubung &amp; Berkolaborasi</h2>
+          <p>
+            Tertarik bekerja sama untuk proyek baru, konsultasi website, atau ingin berdiskusi?
+            Silakan hubungi saya melalui email atau media sosial berikut.
+          </p>
+          <div class="hero-cta-group" style="justify-content: center;">
+            <a href="  https://mail.google.com/mail/?view=cm&to=alyan9.dev@gmail.com" class="btn btn-primary" id="btn-email-me">
+              <span>Kirim Email</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </a>
+            <a href="https://github.com/alyansyh" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="btn-github-profile">
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/alyan-syah-putra" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="btn-linkedin-profile">
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main> 
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Alyan Syah Putra. Hak cipta dilindungi.</p>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       MODAL LIGHTBOX GLOBAL (Untuk Proyek & Sertifikat)
+       ======================================================================== -->
+  <div class="lightbox-modal" id="global-lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+    <div class="lightbox-content-box">
+      <button type="button" class="lightbox-close-btn" id="lightbox-close-btn" aria-label="Tutup Tampilan">&times;</button>
+
+      <div class="lightbox-media">
+        <img src="" alt="" id="lightbox-img" class="lightbox-img">
+      </div>
+
+      <div class="lightbox-body">
+        <div class="lightbox-badge-row" id="lightbox-badges"></div>
+        <h2 class="lightbox-title" id="lightbox-title">Judul Item</h2>
+        <p class="lightbox-desc" id="lightbox-desc">Deskripsi lengkap item.</p>
+        <div class="lightbox-actions" id="lightbox-actions"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCRIPT DATA (Terpisah dari Tampilan) -->
+  <script src="js/projects.js"></script>
+  <script src="js/certificates.js"></script>
+  <!-- SCRIPT LOGIKA UTAMA -->
+  <script src="js/main.js"></script>
+</body>
+</html>
